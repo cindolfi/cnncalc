@@ -1,0 +1,6 @@
+#input_size: 128
+layers:
+    - kernel_size: 3
+    - {kernel_size: 3, stride: 2}
+    - {kernel_size: 3, padding: valid}
+    - {type: pool, kernel_size: 2}

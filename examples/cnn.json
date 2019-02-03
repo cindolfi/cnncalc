@@ -1,0 +1,12 @@
+{
+    "input_size": 128,
+    "layers": [
+        {
+            "kernel_size": 3
+        },
+        {
+            "kernel_size": 3,
+            "stride": 2
+        }
+    ]
+}
